@@ -1,7 +1,7 @@
 import requests
 
 def make_request():
-    url = "https://powerbot-be.onrender.com/"
+    url = "https://retrieval-be.onrender.com"
     response = requests.get(url)
     if response.status_code == 200:
         print("Request successful")
