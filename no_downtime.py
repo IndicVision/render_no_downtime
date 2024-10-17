@@ -4,7 +4,7 @@ def make_request():
     url = "https://powerbot-be.onrender.com/"
     response = requests.get(url)
     if response.status_code == 200:
-        print("Request successful:", response.json())
+        print("Request successful")
     else:
         print(f"Request failed with status code: {response.status_code}")
 
