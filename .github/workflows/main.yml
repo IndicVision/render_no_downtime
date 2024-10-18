@@ -2,7 +2,7 @@ name: Scheduled API Request
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   make-request:
