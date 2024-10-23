@@ -1,8 +1,8 @@
-name: Scheduled API Request
+name: Scheduled API Request (2 min)
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   make-request:
